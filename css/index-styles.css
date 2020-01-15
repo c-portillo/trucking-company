@@ -111,7 +111,7 @@ body {
  */
 
  h1 {
-   font-size: 3.2rem;
+   font-size: 2.5rem;
    font-weight: 900;
  }
 
@@ -139,4 +139,11 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+
+/* FINAL EDITS */
+.header-primary{
+  font-size: 3.2rem;
+  font-weight: 900;
 }

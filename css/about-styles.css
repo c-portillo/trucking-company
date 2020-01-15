@@ -120,8 +120,10 @@ h1 {
   background-color: #3282b8;
 }
 .featurette-image{
-
   border-radius: 10%
+}
+.text-background{
+  background-color: #3282b8;
 }
 
 
