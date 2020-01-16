@@ -127,15 +127,15 @@ h1 {
   background-color: #3282b8;
 }
 .text-background-primary {
-  background-color: #1b262c;
-  background-color: rgba(15, 76, 117, .8);
+  background-color: #3282b8;
+  background-color: rgba(50, 130, 184, .8);
   padding: 5px 15px;
   display: inline-block;
   margin-bottom: 0;
 }
 .text-background-secondary {
-  background-color: #1b262c;
-  background-color: rgba(15, 76, 117, .6);
+  background-color: #3282b8;
+  background-color: rgba(50, 130, 184, .6);
   padding: 5px 15px;
   display: inline-block;
   margin-top: 0;
