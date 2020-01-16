@@ -36,7 +36,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #1b262c;
 }
 
 body {
@@ -63,7 +63,7 @@ body {
   margin: 0;
   margin-bottom: 1rem;
   padding: 10px 25px;
-  background-color: #343a40;
+  background-color: #1b262c;
 }
 
 .masthead-brand {
@@ -107,7 +107,7 @@ body {
   max-width: 100%;
 }
 h1 {
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   font-weight: 900;
 }
 .about-icon{
@@ -122,9 +122,25 @@ h1 {
 .featurette-image{
   border-radius: 10%
 }
-.text-background{
+
+.carousel-btn{
   background-color: #3282b8;
 }
+.text-background-primary {
+  background-color: #1b262c;
+  background-color: rgba(15, 76, 117, .8);
+  padding: 5px 15px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+.text-background-secondary {
+  background-color: #1b262c;
+  background-color: rgba(15, 76, 117, .6);
+  padding: 5px 15px;
+  display: inline-block;
+  margin-top: 0;
+}
+
 
 
 

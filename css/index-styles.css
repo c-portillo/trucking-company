@@ -13,7 +13,6 @@
   }
 }
 
-
 a,
 a:focus,
 a:hover {
@@ -25,20 +24,19 @@ a:hover {
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
 }
 
-
 /*
  * Base structure
  */
-
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #1b262c;
 }
 
 body {
@@ -51,8 +49,9 @@ body {
   background-attachment: fixed;
   background-size: auto; */
   background-size: cover;
-
+  /* font-family: 'Orbitron', sans-serif; */
   font-family: 'Exo 2', sans-serif;
+
 }
 
 .cover-container {
@@ -67,7 +66,8 @@ body {
   margin: 0;
   margin-bottom: 1rem;
   padding: 10px 25px;
-  background-color: #343a40;
+  background-color: #1b262c;
+  background-color: rgba(27, 38, 44, 0);
 }
 
 .masthead-brand {
@@ -77,7 +77,7 @@ body {
 .nav-masthead .nav-link {
   padding: 18px 10px 10px;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   color: rgba(255, 255, 255, .5);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
@@ -88,7 +88,7 @@ body {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.nav-masthead .nav-link + .nav-link {
+.nav-masthead .nav-link+.nav-link {
   margin-left: 1rem;
 }
 
@@ -101,6 +101,7 @@ body {
   .masthead-brand {
     float: left;
   }
+
   .nav-masthead {
     float: right;
   }
@@ -109,11 +110,10 @@ body {
 /*
  * Cover
  */
-
- h1 {
-   font-size: 2.5rem;
-   font-weight: 900;
- }
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
 
 .full-width {
   max-width: 100%;
@@ -122,18 +122,17 @@ body {
 .cover {
   /* padding: 0; */
 }
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
 }
+
 .cover-container {
   width: 100%;
   text-align: center;
 }
 
-
-
 /* header  */
-
 /*
  * Footer
  */
@@ -141,9 +140,18 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
-
 /* FINAL EDITS */
-.header-primary{
-  font-size: 3.2rem;
-  font-weight: 900;
+
+.text-background {
+  background-color: #1b262c;
+  background-color: rgba(27, 38, 44, .9);
+  padding: 5px 15px;
+  /* border: groove 1em rgba(58, 58, 64, .4); */
+  /* border-radius: 25% 10%; */
+}
+
+.test {
+  background-color: #1b262c;
+  background-color: rgba(27, 38, 44, .68);
+  /* background-color: rgba(15, 76, 117, .5); */
 }
