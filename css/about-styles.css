@@ -203,6 +203,8 @@ h1 {
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  border-color: #1b262c;
+  border-color: rgba(27,38,44,.5);
 }
 
 /* Thin out the marketing headings */
