@@ -162,3 +162,7 @@ h1 {
   background-color: rgba(27, 38, 44, .68);
   /* background-color: rgba(15, 76, 117, .5); */
 }
+
+.contact-info {
+  padding-top: 50px;
+}
