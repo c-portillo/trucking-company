@@ -142,6 +142,7 @@ h1 {
 }
 .service-container {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .service-list {
   min-height: 100px;
