@@ -162,6 +162,7 @@ ul li:before {
 /* important for service items - fix */
 .service-item{
   text-align: left;
+  margin: 0;
 }
 
 
