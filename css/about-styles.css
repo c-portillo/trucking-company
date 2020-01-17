@@ -146,27 +146,15 @@ h1 {
 .service-list {
   min-height: 100px;
 }
-ul {
-  /* disable to enable check mark in li */
-  list-style: none;
-}
-li {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  text-align: left;
-  font-size: 1.2rem;
-}
-ul li:before {
-  content: '✓  ';
-}
+
 /* important for service items - fix */
 .service-item{
   text-align: left;
   margin: 0;
 }
-div.col-lg-4 .col-6{
+/* div.col-lg-4 .col-6{
   padding: 10px;
-}
+} */
 
 
 
